@@ -1,0 +1,22 @@
+{
+  "name": "mymockup",
+  "version": "1.0.0",
+  "description": "Mockup website for WEB Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maroni19/mymockup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maroni19/mymockup/issues"
+  },
+  "homepage": "https://github.com/Maroni19/mymockup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
