@@ -1,8 +1,15 @@
-//@import "../bootstrap";
+@import "../bootstrap";
 
+@import "../buttons";
+@import "../helpers";
+@import "../layout";
+@import "../mixin";
+@import "../typography";
+@import "../variables";
 
-p {
-    background-color: aqua;
-    color: red;
+// home page style
+section {
+    min-height: 20rem; 
 }
+
 
