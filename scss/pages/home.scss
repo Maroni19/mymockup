@@ -11,5 +11,54 @@
 section {
     min-height: 20rem; 
 }
+.hero {
+    border-bottom: 10px solid black;
+    background: url("../../img/background_image.png") no-repeat center center;
+    background-size: cover;
+  
+    .hamburger {
+      color: #fff;
+      font-size: 2rem;
+      display: none;
+      cursor: pointer;
+  
+      &:hover {
+        color: blue;
+      }
+  
+      @media (max-width: $screen-sm){
+        display: block;
+      }
+    }
+}
+.menu-block {
+    display: block;
 
-
+    @media (max-width: $screen-sm){
+      display: none;
+      margin-right: 15px;
+    }
+}
+.nav-item {
+    display: inline-block;
+    margin: 0 1rem;
+    
+    @media (max-width: $screen-sm){
+      display: block;
+    }
+}
+.content {
+    @media (max-width: $screen-sm){
+       width: 100%;
+    }
+    .sub-heading  {
+    color: #fff;
+    }
+    .main-heading {
+    color: #fff;
+    }
+    .btn-default {
+    opacity: 0.9;
+    border: 2px solid white;
+    }
+}

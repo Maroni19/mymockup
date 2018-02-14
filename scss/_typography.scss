@@ -50,12 +50,14 @@ p {
 a {
     font-family: 'PT Sans', sans-serif;
     font-size: 1.8rem;
-    color: green;
-    text-decoration: underline;
+    color:white;
+    text-decoration: none;
+    
   
     &:hover {
       text-decoration: none;
-      color: red;
+      color: blue;
+      cursor: pointer;
     }
   }
   
