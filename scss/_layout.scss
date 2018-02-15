@@ -7,8 +7,8 @@ div, p, section, footer, header, aside {
 }
 
 .section {
-  padding-top: 10rem;
-  padding-bottom: 10rem;;
+  padding-top: 1rem;
+  padding-bottom: 1rem;;
 
   @media (max-width: $screen-md){
     padding-top: 4rem;
@@ -30,4 +30,7 @@ div, p, section, footer, header, aside {
 
 .circle {
   border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  background-color: black;
 }

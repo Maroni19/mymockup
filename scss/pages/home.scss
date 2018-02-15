@@ -8,6 +8,7 @@
 @import "../variables";
 
 // home page style
+//styles for hero section
 section {
     min-height: 20rem; 
 }
@@ -31,6 +32,11 @@ section {
       }
     }
 }
+.logo {
+    @media (max-width: $screen-sm){
+        margin-top: 1rem;
+      }
+}
 .menu-block {
     display: block;
 
@@ -53,15 +59,103 @@ section {
     }
     .sub-heading  {
     color: #fff;
+    @media (max-width: $screen-sm){
+        margin-top: 2rem;
+      }
     }
     .main-heading {
     color: #fff;
     }
-    .btn-default {
-    opacity: 0.9;
-    border: 2px solid white;
-    }
 }
 .caret {
     color: white;
+}
+
+//styles for section-development
+.web-caption {
+    @media (max-width: $screen-sm){
+        margin-top: 1rem;
+        width: 100%;
+     }
+}
+.text-development1 {
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-bottom: 1rem;
+     }
+}
+.text-development2 {
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-bottom: 1rem;
+     }
+}
+.img-development {
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-top: 1rem;
+     }
+}
+//styles for section-brending
+.users-icon {
+    max-width: 100%;
+}
+.img-branding {
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-top: 1rem;
+     }
+}
+.branding-caption {
+    @media (max-width: $screen-sm){
+        margin-top: 1rem;
+        width: 100%;
+     }
+}
+.text-branding1 {
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-bottom: 1rem;
+     }
+}
+.text-branding2 {
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-bottom: 1rem;
+     }
+}
+//styles for section-skills
+.first-col {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    @media (max-width: $screen-sm){
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+
+     }
+}
+.img-person {
+    top: 1rem;
+    left: 4rem;
+}
+.img-mobile {
+    top: 1.5rem;
+    left: 3.5rem;
+}
+.img-star {
+    top: 1.3rem;
+    left: 3.2rem;
+}
+.img-web {
+    top: 1.7rem;
+    left: 3rem;
+}
+.img-animations {
+    top: 2.1rem;
+    left: 3.2rem;
+}
+.img-photography {
+    top: 1.8rem;
+    left: 3.4rem;
 }
