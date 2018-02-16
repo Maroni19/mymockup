@@ -13,18 +13,18 @@ section {
     min-height: 20rem; 
 }
 .hero {
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid $prime;
     background: url("../../img/background_image.png") no-repeat center center;
     background-size: cover;
   
     .hamburger {
-      color: #fff;
+      color: $second;
       font-size: 2rem;
       display: none;
       cursor: pointer;
   
       &:hover {
-        color: blue;
+        color: $third;
       }
   
       @media (max-width: $screen-sm){
@@ -58,17 +58,17 @@ section {
        width: 100%;
     }
     .sub-heading  {
-    color: #fff;
+    color: $second;
     @media (max-width: $screen-sm){
         margin-top: 2rem;
       }
     }
     .main-heading {
-    color: #fff;
+    color: $second;
     }
 }
 .caret {
-    color: white;
+    color: $second;
 }
 
 //styles for section-development
@@ -158,4 +158,20 @@ section {
 .img-photography {
     top: 1.8rem;
     left: 3.4rem;
+}
+//styles for section-clients
+.carousel-box {
+    width: 70rem;
+    height: 40rem;
+    margin: 0 auto;
+    @media (max-width: $screen-md){
+        width: 100%;}
+}
+.carousel-control {
+    width: 5rem;
+}
+.img-carousel {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
 }
