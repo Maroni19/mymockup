@@ -128,12 +128,13 @@ section {
 .first-col {
     margin-top: 8rem;
     margin-bottom: 6rem;
+
     @media (max-width: $screen-sm){
         width: 100%;
         margin-bottom: 1rem;
         margin-top: 1rem;
 
-     }
+    }
 }
 .img-person {
     top: 1rem;
@@ -160,12 +161,19 @@ section {
     left: 3.4rem;
 }
 //styles for section-clients
+.clients-caption {
+    @media (max-width: $screen-md){
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
 .carousel-box {
     width: 70rem;
     height: 40rem;
     margin: 0 auto;
     @media (max-width: $screen-md){
-        width: 100%;}
+        width: 100%;
+    }
 }
 .carousel-control {
     width: 5rem;
@@ -173,5 +181,15 @@ section {
 .img-carousel {
     width: 20rem;
     height: 20rem;
+    margin-left: 5rem;
     border-radius: 50%;
+}
+.item {
+    @media (max-width: $screen-md){
+        width: 100%;
+        margin-top: 1rem;
+    } 
+}
+.fa-3x {
+    margin-top: 17rem;
 }
