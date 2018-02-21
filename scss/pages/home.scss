@@ -201,3 +201,14 @@ section {
 .fa-3x {
     margin-top: 17rem;
 }
+//styles for section-footer
+.fa-2x {
+    margin: 2rem 1rem;
+    color: black;
+    cursor: pointer;
+
+    &:hover {
+        color: $grayShade;
+    }
+}
+
